@@ -1,0 +1,48 @@
+[INFO ] 2022-05-31 17:13:38.953 [main] Tests - Before Suite executed
+[INFO ] 2022-05-31 17:13:39.421 [main] Tests - Data providing to test
+[INFO ] 2022-05-31 17:13:39.467 [main] Tests - Using data Provider
+[INFO ] 2022-05-31 17:13:44.994 [main] MultiCases - Test case start row is 1
+[INFO ] 2022-05-31 17:13:44.994 [main] MultiCases - Test case end row is 8
+[INFO ] 2022-05-31 17:13:45.057 [main] MultiCases - Test Case NameValidate  whether user navigating to payments Gateway after clicking buy button on Rs.299 plan.
+[INFO ] 2022-05-31 17:13:45.057 [main] KeywordEngine - Getting row data
+[INFO ] 2022-05-31 17:13:45.135 [main] KeywordEngine - LocatorType is NA
+[INFO ] 2022-05-31 17:13:45.197 [main] KeywordEngine - LocatorValue is NA
+[INFO ] 2022-05-31 17:13:45.275 [main] KeywordEngine - ActionKeyword is openBrowser
+[INFO ] 2022-05-31 17:13:45.337 [main] KeywordEngine - Value is chrome
+[INFO ] 2022-05-31 17:13:55.973 [main] Base - Launching browser
+[INFO ] 2022-05-31 17:13:55.973 [main] KeywordEngine - Browser Launched
+[INFO ] 2022-05-31 17:13:56.030 [main] KeywordEngine - LocatorType is NA
+[INFO ] 2022-05-31 17:13:56.098 [main] KeywordEngine - LocatorValue is NA
+[INFO ] 2022-05-31 17:13:56.166 [main] KeywordEngine - ActionKeyword is getUrl
+[INFO ] 2022-05-31 17:13:56.225 [main] KeywordEngine - Value is https://www.jio.com
+[INFO ] 2022-05-31 17:13:56.225 [main] KeywordEngine - getting Url https://www.jio.com
+[INFO ] 2022-05-31 17:13:59.009 [main] KeywordEngine - URL entered
+[INFO ] 2022-05-31 17:13:59.106 [main] KeywordEngine - LocatorType is xpath
+[INFO ] 2022-05-31 17:13:59.253 [main] KeywordEngine - LocatorValue is //a[@cust-url='/selfcare/recharge/mobility/']
+[INFO ] 2022-05-31 17:13:59.369 [main] KeywordEngine - ActionKeyword is click
+[INFO ] 2022-05-31 17:13:59.438 [main] KeywordEngine - Value is NA
+[INFO ] 2022-05-31 17:14:03.349 [main] KeywordEngine - Clicked using xpath
+[INFO ] 2022-05-31 17:14:03.529 [main] KeywordEngine - LocatorType is xpath
+[INFO ] 2022-05-31 17:14:03.595 [main] KeywordEngine - LocatorValue is //input[@name='jioNrInputName']
+[INFO ] 2022-05-31 17:14:03.627 [main] KeywordEngine - ActionKeyword is sendKeys
+[INFO ] 2022-05-31 17:14:03.721 [main] KeywordEngine - Value is 8.884134076E9
+[INFO ] 2022-05-31 17:14:23.897 [main] Tests - After Method Executing
+[INFO ] 2022-05-31 17:14:24.647 [main] KeywordEngine - Captured screenshot
+[ERROR] 2022-05-31 17:14:24.656 [main] Tests - Test Failedorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='jioNrInputName']"}
+  (Session info: chrome=102.0.5005.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'ASUS-PC', ip: '192.168.1.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ec94294ce8bd8b3493e09f516fe4cca, findElement {using=xpath, value=//input[@name='jioNrInputName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Asus\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50012/devtoo..., se:cdpVersion: 102.0.5005.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ec94294ce8bd8b3493e09f516fe4cca
+[INFO ] 2022-05-31 17:14:25.904 [main] KeywordEngine - Browser closed
+[INFO ] 2022-05-31 17:14:26.920 [main] KeywordEngine - Flag value is NO
+[INFO ] 2022-05-31 17:14:26.920 [main] Tests - After Method Executed
+[INFO ] 2022-05-31 17:14:26.935 [main] Tests - Using data Provider
+[INFO ] 2022-05-31 17:14:30.562 [main] MultiCases - Test case start row is 9
+[INFO ] 2022-05-31 17:14:30.562 [main] MultiCases - Test case end row is 0
+[INFO ] 2022-05-31 17:14:30.594 [main] MultiCases - Test Case NameCheck whether user is navigating back to select plan page on clickin go back button on payments page
+[INFO ] 2022-05-31 17:14:30.594 [main] KeywordEngine - Getting row data
+[INFO ] 2022-05-31 17:14:30.609 [main] Tests - After Method Executing
